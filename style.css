@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container{
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo-photo{
+    width: 120px;
+}
+
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+}
+.menus{
+    display: flex;
+}
+
+.item:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.banner-img{
+    width: 300px;
+
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500),linear-gradient(45deg, rgb(8, 8, 8),rgb(53, 53, 53));
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-us{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.title2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.about-us-text{
+    margin-bottom: 60px;
+}
+
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 70px;  
+}
+
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+
+.title3{
+    padding: 5px;
+}
+.body2{
+    padding: 5px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#section1{
+    background-image: url(https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500),linear-gradient(45deg, rgb(8, 8, 8),rgb(53, 53, 53));
+}
+
+.title-about-title{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.section2{
+    background-color: rgb(32, 32, 32);
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    color: white;
+    list-style: none;
+
+}
+
+.body3{
+    margin-top: 10px;
+}
+
+.head2{
+    margin-bottom: 20px;
+}
+
+.final{
+    margin: 0px 12% 0px 12%;
+}
+
+.final-text{
+    padding: 30px;
+    color: white;
+    text-align: center;
+}

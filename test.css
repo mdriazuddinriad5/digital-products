@@ -7,3 +7,25 @@
     color: blue;
     cursor: pointer;
 }
+
+.box{
+    padding: 10px;
+    background-color: rgb(42, 124, 165);
+    width: 110px;
+    height: 150px;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 1px solid red;
+}
